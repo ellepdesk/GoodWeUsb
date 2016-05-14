@@ -2,7 +2,7 @@
 C++ := clang++
 C++_FLAGS := -Wall
 SEARCH_PATH = "/usr/lib/x86_64-linux-gnu/"
-LIBRARIES = -lhidapi-hidraw
+LIBRARIES = -lhidapi-libusb
 
 # File names
 mkfile_path := $(abspath $(lastword $(MAKEFILE_LIST)))
